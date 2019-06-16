@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1-0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
-
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Bulma Sandbox</title>
 </head>
-<body>
+<body class="has-navbar-fixed-top">
 
 <div class="container"> 
 	<!-- Adds margin auto just like bootstrap -->
@@ -190,8 +190,235 @@
 	</div>
 
 	<!-- MESSAGES -->
-	
-</div>
-<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<div class="block">
+		<article class="message">
+			<div class="message-header">
+				<p>About Us</p>
+			</div>	
+			<div class="message-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</div>	
+		</article>	
+		<article class="message is-primary">
+			<div class="message-header">
+				<p>About Us</p>
+			</div>	
+			<div class="message-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</div>	
+		</article>	
+		<article class="message is-success">
+			<div class="message-header">
+				<p>About Us</p>
+			</div>	
+			<div class="message-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</div>	
+		</article>	
+		<article class="message is-info">
+			<div class="message-header">
+				<p>About Us</p>
+			</div>	
+			<div class="message-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</div>	
+		</article>	
+		<article class="message is-warning">
+			<div class="message-header">
+				<p>About Us</p>
+			</div>	
+			<div class="message-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</div>	
+		</article>
+		<article class="message is-danger">
+			<div class="message-header">
+				<p>About Us</p>
+			</div>	
+			<div class="message-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</div>	
+		</article>	
+	</div>	
+
+	<!-- NAVBAR -->
+	<div class="block">	
+		<!-- Navbar for the website -->
+			<nav class="navbar is-fixed-top is-success is-spaced" role="navigation" aria-label="main-navigation">
+				<div class="navbar-brand">
+					<a class="navbar-item">
+						<h1 class="title is-4">Bulma Sandbox</h1>
+					</a>
+					<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      						<span aria-hidden="true"></span>
+      						<span aria-hidden="true"></span>
+      						<span aria-hidden="true"></span>
+    				</a>
+				</div>	
+				<div class="navbar-menu" id="navMenu">
+				<div class="navbar-start">
+					<a class="navbar-item is-tab">Home</a>
+					<a class="navbar-item is-tab">About</a>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link">Contact</a>
+
+						<div class="navbar-dropdown">
+				          <a class="navbar-item is-tab">
+				            About
+				          </a>
+				          <a class="navbar-item is-tab">
+				            Jobs
+				          </a>
+				          <a class="navbar-item is-tab">
+				            Contact
+				          </a>
+				          <hr class="navbar-divider">
+				          <a class="navbar-item is-tab">
+				            Report an issue
+				          </a>
+				        </div>
+					</div>
+					
+				</div>
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<div class="field is-grouped">
+							<a class="button">
+								<span class="icon">	
+										<i class="fa fa-github"></i>
+								</span>	
+							</a>
+							<a class="button">
+								<span class="icon">	
+										<i class="fa fa-twitter"></i>
+								</span>	
+							</a>
+							</div>
+						</div>
+						<div class="navbar-item">
+					  <div class="field is-grouped">
+					    <p class="control">
+					      <a class="button">
+					        <span>Email</span>
+					      </a>
+					    </p>
+					    <p class="control">
+					      <a class="button is-primary">
+					        <span class="icon">
+					          <i class="fa fa-download" aria-hidden="true"></i>
+					        </span>
+					        <span>Download</span>
+					      </a>
+					    </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+			</nav>	
+			<br><br>	<br>	<br>	<br>	<br>	<br>	<br>	<br>	
+	</div>	
+
+	<!-- SIDE MENU -->
+	<div class="block">
+		<aside class="menu">
+			<p class="menu-label">Label 1</p>
+			<ul class="menu-list">
+				<li><a href="">Link 1</a></li>
+				<li><a href="">Link 2</a></li>
+			</ul>	
+			<p class="menu-label">Label 2</p>
+			<ul class="menu-list">
+				<li><a href="" class="is-active">Link 1</a>
+					<ul>
+						<li><a href="">Link 2a</a></li>
+						<li><a href="">Link 2b</a></li>
+					</ul>
+				</li>
+
+				<li><a href="">Link 2</a></li>
+			</ul>
+		</aside>	
+	</div>	
+
+	<!-- HERO -->
+	<div class="block">
+		<section class="hero">
+			<div class="hero-body">
+				
+			</div>
+		</section>	
+	</div>
+</div> <!--container-->
+
+<script>
+	//JS code to manipulate navbar toggle
+	document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});
+
+//jQuery code
+// $(document).ready(function() {
+
+//   // Check for click events on the navbar burger icon
+//   $(".navbar-burger").click(function() {
+
+//       // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+//       $(".navbar-burger").toggleClass("is-active");
+//       $(".navbar-menu").toggleClass("is-active");
+
+//   });
+// });
+</script>
 </body>
 </html>
